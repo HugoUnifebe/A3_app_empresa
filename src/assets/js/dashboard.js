@@ -15,11 +15,11 @@
       new Chart(doughnutChartCanvas, {
         type: 'doughnut',
         data: {
-          labels: ["Paypal", "Stripe","Cash"],
+          labels: ["Produção", "Novos","Administrativos"],
           datasets: [{
-              data: [55, 25, 20],
+              data: [22, 5, 9],
               backgroundColor: [
-                 "#111111","#00d25b","#ffab00",
+                 "#4fb4b1","#00d25b","#ffab00",
               ],
               borderColor: "#191c24"
           }]

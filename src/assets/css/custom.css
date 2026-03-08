@@ -11,3 +11,7 @@
 .sidebar .nav {
     padding-top: 100px;
 }
+
+.container-scroller {
+    height: 100vh;
+}

@@ -1,4 +1,4 @@
-!!<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-<a href="/src/index.html">
+<a href="src/index.html">
     abrir
 </a>
+
+<script>
+    window.location = String(window.location).replace(/\/+$/, "").replace(/\/index.html+$/, "") + '/src/index.html';
+</script>
 
 </body>
 </html>
